@@ -1,3 +1,4 @@
+#Names: Alicia Wei & Patrick O'Neil
 #Usage: Run bash wages.sh
 #Problem 1
 cat wages.csv | tail -n +2 | cut -d , -f 1,2 | sort -t "," -k1,1 -k2,2n | uniq > wages_p1.csv
